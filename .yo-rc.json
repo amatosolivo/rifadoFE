@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.cocaleca.rifado",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.3.1",
+    "applicationType": "gateway",
+    "baseName": "rifadoFE",
+    "packageName": "com.cocaleca.rifado",
+    "packageFolder": "com/cocaleca/rifado",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "consul",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "MTc2NzAwZDJmZjM5MWYzMTVlZTJmYzA0MDBlZDYwYjRlNjJjMGNjMjUxMTc3MWJiOGU0YWJhMDk4YzI5ZjA3YmUzMmE1Njg0NzNkMmI5YmIzZDlhZTY5ZTAzNDAwZDBkM2Y3MDIzNjUzYzQzOGEzZTk5OGMwMDllODgxOWE3ODg=",
+    "clientFramework": "angularX",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "cucumber",
+      "protractor"
+    ],
+    "jhiPrefix": "jhi",
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "es"
+    ]
+  }
+}
